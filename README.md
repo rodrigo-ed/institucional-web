@@ -1,56 +1,12 @@
-# institucional-web
-Descrição: Site institucional profissional desenvolvido com HTML5, CSS3 e JavaScript, seguindo as melhores práticas de desenvolvimento web, acessibilidade e SEO.
+# React + Vite
 
-🚀 Recursos Implementados
-✅ HTML Semântico
-Estrutura semântica com tags como <header>, <section>, <footer>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Meta tags otimizadas para SEO (description, keywords, author)
+Currently, two official plugins are available:
 
-Atributos alt em imagens e loading="lazy" para performance
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Links âncora suaves para navegação interna
+## Expanding the ESLint configuration
 
-🎨 CSS Moderno
-Design responsivo (mobile-first) com media queries
-
-Variáveis CSS para cores e tamanhos (:root)
-
-Flexbox e Grid Layout para organização do conteúdo
-
-Animações e transições suaves
-
-Organização modular do código (BEM-like)
-
-⚡ JavaScript Eficiente
-Menu mobile acessível com ARIA attributes
-
-Slider de depoimentos com navegação por dots e setas
-
-Validação de formulário de contato
-
-Scroll suave e highlight de seção ativa
-
-Lazy loading para imagens (com fallback)
-
-🔍 Otimização SEO
-Títulos hierárquicos (h1-h4)
-
-Meta description e keywords relevantes
-
-URLs semânticas
-
-Conteúdo estruturado para motores de busca
-
-Schema markup implícito
-
-♿ Acessibilidade
-Navegação por teclado
-
-Contraste de cores adequado
-
-Textos alternativos descritivos
-
-Foco visível em elementos interativos
-
-ARIA labels para elementos não textuais
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
